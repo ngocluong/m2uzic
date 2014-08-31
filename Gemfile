@@ -5,8 +5,7 @@ source 'https://rubygems.org'
 gem 'rails', '4.1.5'
 # Use postgres as the database for Active Record
 gem 'pg'
-
-gem 'inherited_resources'
+gem 'active_model_serializers'
 
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.3'
