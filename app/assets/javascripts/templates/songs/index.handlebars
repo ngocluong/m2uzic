@@ -1,1 +1,9 @@
-<h1>Songs</h1>
+<div> List of Songs </div>
+{{#each song in model}}
+  Song Name: {{#link-to 'songs.show' song}}{{song.name}}{{/link-to}}
+  <br/>
+  Description: {{description}}
+  <br/>
+  <br/>
+{{/each}}
+
