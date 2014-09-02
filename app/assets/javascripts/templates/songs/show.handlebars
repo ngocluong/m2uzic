@@ -3,4 +3,10 @@
   <br/>
   Description: {{model.description}}
   <br/>
+  Audio: {{model.audio_file_name}}
+  <audio controls>
+    <source {{bind-attr src="model.audio_file_url"}} type="audio/mpeg">
+    Your browser does not support the audio element.
+  </audio>
+  <br/>
 {{link-to 'back to index' 'songs.index'}}

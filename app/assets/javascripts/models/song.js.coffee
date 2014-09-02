@@ -1,6 +1,7 @@
 M2uzic.Song = DS.Model.extend
   name: DS.attr('string')
   description: DS.attr('string')
+  audio_file_url: DS.attr('string')
 
 M2uzic.ApplicationAdapter = DS.ActiveModelAdapter
 #M2uzic.Song.FIXTURES = [{
