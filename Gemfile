@@ -6,7 +6,7 @@ gem 'rails', '4.1.5'
 # Use postgres as the database for Active Record
 gem 'pg'
 gem 'active_model_serializers'
-
+gem 'paperclip'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.3'
 # Use Uglifier as compressor for JavaScript assets
