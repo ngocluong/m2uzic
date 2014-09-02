@@ -7,6 +7,7 @@ gem 'rails', '4.1.5'
 gem 'pg'
 gem 'active_model_serializers'
 gem 'paperclip'
+gem 'faker'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.3'
 # Use Uglifier as compressor for JavaScript assets
